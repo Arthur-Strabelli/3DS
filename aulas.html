@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendário de Aulas</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="bodyAulas">
+
+    <header>
+        <h2>TERCEIRÃO<span>2026</span></h2>
+        <nav>
+            <a href="index.html">Cronômetro</a>
+            <a href="terceirinho.html">Mini-<span>Terceirinho</span></a>
+            <a href="Dle.html">3<span>Dle</span></a>
+            <a href="aulas.html">Aulas</a>
+        </nav>
+    </header>
+
+    <main class="conteudo-aulas">
+        <h1 class="titulo-aulas">Horário das Aulas</h1>
+
+        <select id="turmaSelect">
+            <option value="A">Turma A</option>
+            <option value="B">Turma B</option>
+        </select>
+
+        <div class="calendario">
+            <div class="coluna" id="segunda"><h2>Segunda</h2></div>
+            <div class="coluna" id="terca"><h2>Terça</h2></div>
+            <div class="coluna" id="quarta"><h2>Quarta</h2></div>
+            <div class="coluna" id="quinta"><h2>Quinta</h2></div>
+            <div class="coluna" id="sexta"><h2>Sexta</h2></div>
+        </div>
+    </main>
+
+    <div class="modalAula" id="modalAula">
+        <div class="modal-contenaAula">
+            <span class="fechar" onclick="fecharModal()">×</span>
+            <h2 id="modalMateria"></h2>
+            <p><strong>Horário:</strong> <span id="modalHora"></span></p>
+            <p><strong>Professor:</strong> <span id="modalProfessor"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>

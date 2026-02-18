@@ -1,0 +1,900 @@
+@font-face {
+    font-family: Rajdhani-Bold;
+    src: url(Font/Rajdhani-Bold.ttf);
+}
+
+@font-face {
+    font-family: Michroma-Regular;
+    src: url(Font/Michroma-Regular.ttf);
+}
+
+@font-face {
+    font-family: Orbitron;
+    src: url(Font/Orbitron-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E1014;
+}
+
+
+
+header {
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, #038e1e, #0fce33) 1;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #0E1014;
+}
+
+h2 {
+    font-family: Rajdhani-Bold, sans-serif;
+    font-size: 33px;
+    color: white;
+    margin: 8px 0 4px 62px;
+}
+
+header h2 span {
+    background: linear-gradient(90deg, #038e1e, #0fce33);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 62px;
+}
+
+nav a {
+    font-family: Rajdhani-Bold, sans-serif;
+    font-size: 33px;
+    color: white;
+    text-decoration: none;
+    margin-left: 62px;
+}
+
+nav a span {
+    background: linear-gradient(90deg, #038e1e, #0fce33);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+
+main h1 {
+    font-family: Michroma-Regular, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 150px auto 20px auto;
+    text-shadow:
+        3px 3px 0 #0b5e3c,
+        6px 6px 0 #084d31,
+        9px 9px 0 #063b26;
+    letter-spacing: 2px;
+}
+
+main p {
+    color: #00ff88;
+    margin-bottom: 30px;
+    font-family: Rajdhani-Bold, sans-serif;
+    font-size: 30px;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+
+
+
+.TerceiraoImg {
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    left: -180px;
+}
+
+.ds{
+    position: absolute;
+    right: 0;
+    top: 20px; 
+    
+    width: 250px; 
+    height: auto;
+}
+
+.dsDle{
+    position: absolute;
+    right: 0;
+    top: 20px; 
+    
+    width: 250px; 
+    height: auto;
+}
+
+
+
+#contador {
+    font-family: Orbitron, sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    border: 3px solid #00ff88;
+    padding: 30px;
+    width: fit-content;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00ff88;
+    background-color: rgba(0, 255, 136, 0.05);
+    
+}
+
+
+
+.LadoImgTerceirao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Area do Dle*/
+
+.bodyDle {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  
+}
+
+.containerDle {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 400px;
+  
+}
+
+.tituloDle {
+
+
+  font-family: Michroma-Regular, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 150px auto 20px auto;
+    text-shadow:
+        3px 3px 0 #0b5e3c,
+        6px 6px 0 #084d31,
+        9px 9px 0 #063b26;
+    letter-spacing: 2px;
+}
+
+.autocomplete-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background: #1e1e1e;
+  color: white;
+  box-shadow: 0 0 0 2px #2a2a2a;
+  transition: 0.2s;
+}
+
+input:focus {
+  box-shadow: 0 0 0 2px #4caf50;
+}
+
+#sugestoes {
+  position: absolute;
+  width: 100%;
+  background: #1e1e1e;
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.sugestao {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.sugestao:hover {
+  background: #2a2a2a;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background: #1e1e1e;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  animation: fadeIn 0.3s ease;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.box {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 8px;
+  font-size: 14px;
+  min-width: 80px;
+}
+
+.green {
+  background: #4caf50;
+}
+
+.gray {
+  background: #444;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.confete {
+  position: fixed;
+  top: -10px;
+  width: 8px;
+  height: 8px;
+  background: hsl(calc(360 * var(--i)), 100%, 50%);
+  background: green;
+  animation: cair linear forwards;
+}
+
+@keyframes cair {
+  to {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+.TerceiraoImgDle {
+    width: 800px;
+    height: 750px;
+    
+    position: absolute;
+    left: -180px;
+    top: 0;
+}
+
+/*Area das Aulas*/
+
+
+.conteudo-aulas {
+    margin-top: 80px; 
+    padding: 20px;
+}
+
+.bodyAulas h1 {
+    font-family: Michroma-Regular, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+#turmaSelect {
+    background-color: #1e1e1e;
+    color: white;
+    border: 2px solid #00ff88;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: Rajdhani-Bold, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+#turmaSelect:focus {
+    box-shadow: 0 0 10px #00ff88;
+}
+
+.calendario {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.coluna {
+    background: #404040;
+    width: 18%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   
+}
+
+.coluna h2 {
+    margin: 0 auto;
+    
+}
+
+.aula {
+    background: #00ff88; 
+    color: #0E1014;      
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Rajdhani-Bold', sans-serif;
+}
+
+.aula:hover {
+    background: #038e1e;
+    color: white;
+    transform: scale(1.02);
+}
+
+
+
+/* MODAL */
+
+.modalAula {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenaAula {
+    background: #00ff88;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    
+}
+
+#modalMateria{
+    font-family: 'Rajdhani-Bold', sans-serif;
+    font-size: 24px;
+    color: #0E1014;
+    margin: 0 auto 10px auto;
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.titulo-aulas {
+  margin: 0;
+}
+
+
+/*Terceirinho*/
+
+.bodyTerceirinho {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 { text-align: center; color: #0a0a0a; text-transform: uppercase; margin-bottom: 40px; }
+
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.aluno-card {
+    background: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #333;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.aluno-card:hover {
+    transform: translateY(-8px);
+    border-color: #00ff88;
+    box-shadow: 0 0 20px rgba(34, 100, 1, 0.886);
+}
+
+.aluno-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    
+}
+
+.aluno-card:hover img {
+    filter: grayscale(0%);
+}
+
+.nome-label {
+    padding: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0; width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(8px);
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    margin: 10% auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 650px;
+    border-radius: 20px;
+    border: 1px solid #00ff88;
+    position: relative;
+}
+
+.modal-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img-modal {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info-aluno { flex: 1; }
+
+.info-aluno h2 { 
+    color: #00ff88; 
+    margin: 0 auto 15px auto; 
+}
+
+.info-aluno p { 
+    border-bottom: 1px solid #333; 
+    padding-bottom: 8px; 
+    margin-bottom: 8px;
+
+}
+
+.info-aluno p strong {
+    color: #00ff88;
+    font-weight: bold;
+}
+
+.insta-btn {
+    display: inline-block;
+    color: #fff;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.insta-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(236, 39, 39, 0.6);
+}
+
+.spoty-btn {
+    display: inline-block;
+    color: #ffffff;
+    background: linear-gradient(45deg, #1DB954, #1ed760);
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 15px rgba(29, 185, 84, 0.4);
+    margin-left: 10px;
+}
+
+.spoty-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(29, 185, 84, 0.6);
+}
+
+
+.fechar {
+    position: absolute; right: 20px; top: 10px;
+    font-size: 35px; color: #fff; cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- AJUSTES PARA TABLETS E CELULARES --- */
+@media (max-width: 1024px) {
+    nav a, h2, nav {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .ds {
+        position: absolute; 
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+        top: 30px;
+    }
+
+    .TerceiraoImg {
+        position: relative; 
+        bottom: 10px; 
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #contador > div {
+        gap: 10px !important; 
+    }
+
+    
+    #contador div div {
+        font-size: 28px !important;
+        margin-right: 10px;
+    }
+
+    
+    #contador small {
+        font-size: 11px !important;
+    }
+
+    .tituloDle{
+        margin-top: 10px;
+    }
+
+    .dsDle{
+        position: absolute; 
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+        top: 100px;
+        right: 20px;
+    }
+
+    
+
+    header {
+        position: relative; 
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    h2 {
+        margin: 10px 0 !important; 
+        text-align: center;
+        width: 100%;
+    }
+
+    nav {
+        margin: 0 auto !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+    nav a {
+        margin: 5px !important;
+        font-size: 16px; 
+    }
+
+    
+    main h1 {
+        font-size: 28px;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    #contador {
+        font-size: 20px;
+        width: 95%;
+        padding: 15px 5px;
+        display: flex;
+        justify-content: space-around;
+        gap: 5px;
+    }
+
+    
+    .bodyDle {
+        display: block; 
+        padding-top: 20px;
+    }
+
+    .containerDle {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .TerceiraoImg, .TerceiraoImgDle {
+        position: relative; 
+        left: 0; 
+        width: 80%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .tituloDle {
+        margin-top: 20px auto;
+        font-size: 35px;
+    }
+
+   
+    .calendario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    #contador {
+        font-size: 16px;
+    }
+    
+    nav a {
+        font-size: 14px;
+    }
+
+    .ds {
+        position: absolute; 
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+        top: 30px;
+    }
+
+    .TerceiraoImg {
+        position: relative; 
+        bottom: 10px; 
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #contador > div {
+        gap: 10px !important; 
+    }
+
+    
+    #contador div div {
+        font-size: 28px !important;
+        margin-right: 10px;
+    }
+
+    
+    #contador small {
+        font-size: 11px !important;
+    }
+
+    .tituloDle{
+        margin-top: 10px;
+    }
+
+    .dsDle{
+        position: absolute; 
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+        top: 100px;
+        right: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    
+    main h1, .tituloDle {
+        font-size: 24px;
+        text-shadow: 2px 2px 0 #0b5e3c;
+    }
+
+    main p {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .album-container {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+        gap: 15px;
+    }
+
+    .insta-btn, .spoty-btn {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .ds {
+        position: absolute; 
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+        top: 30px;
+    }
+
+    .TerceiraoImg {
+        position: relative; 
+        bottom: 10px; 
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #contador > div {
+        gap: 10px !important; 
+    }
+
+    
+    #contador div div {
+        font-size: 28px !important;
+        margin-right: 10px;
+    }
+
+    
+    #contador small {
+        font-size: 11px !important;
+    }
+
+    .tituloDle{
+        margin-top: 10px;
+    }
+
+    .dsDle{
+        position: absolute; 
+        width: 100px;
+        height: auto;
+        margin: 20px 0;
+        top: 100px;
+        right: 20px;
+    }
+}
