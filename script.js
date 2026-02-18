@@ -431,24 +431,10 @@ function abrirModalAlbum(index) {
     document.getElementById('instaLink').innerText = aluno.insta;
     const usuario = aluno.insta.replace('@', '');
 
-    const appLink = `instagram://user?username=${usuario}`;
-    const webLink = `https://www.instagram.com/${usuario}/`;
+const instaBtn = document.getElementById('instaLink');
 
-    const instaBtn = document.getElementById('instaLink');
-
-    instaBtn.innerText = aluno.insta;
-
-    instaBtn.onclick = function (e) {
-    e.preventDefault();
-
-    
-    window.location.href = appLink;
-
-    
-    setTimeout(() => {
-        window.open(webLink, '_blank');
-    }, 800);
-};
+instaBtn.innerText = aluno.insta;
+instaBtn.href = `https://www.instagram.com/${usuario}/`;
 
     document.getElementById('imgModal').src = aluno.foto;
 
