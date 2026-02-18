@@ -429,8 +429,27 @@ function abrirModalAlbum(index) {
 
     document.getElementById('filme').innerText = aluno.filme;
     document.getElementById('instaLink').innerText = aluno.insta;
-    document.getElementById('instaLink').href =
-        `https://instagram.com/${aluno.insta.replace('@', '')}`;
+    const usuario = aluno.insta.replace('@', '');
+
+    const appLink = `instagram://user?username=${usuario}`;
+    const webLink = `https://www.instagram.com/${usuario}/`;
+
+    const instaBtn = document.getElementById('instaLink');
+
+    instaBtn.innerText = aluno.insta;
+
+    instaBtn.onclick = function (e) {
+    e.preventDefault();
+
+    
+    window.location.href = appLink;
+
+    
+    setTimeout(() => {
+        window.open(webLink, '_blank');
+    }, 800);
+};
+
     document.getElementById('imgModal').src = aluno.foto;
 
     modal.style.display = "block";
