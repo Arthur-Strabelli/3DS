@@ -456,6 +456,26 @@ const alunos = [
         filme: "Hells paradise",
         insta: "@__dzz9",
         foto: "ImgsTerceirinho/CelioTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Nicole Rúbia",
+        nasc: "31/03/2009",
+        sonho: "ter um salsicha mofado (Dachshund)",
+        musica: "Still Loving You - Scorpions",
+        filme: "Supernatural",
+        insta: "@nicoleerubia",
+        foto: "ImgsTerceirinho/NicoleTerceirinhoImg.jpeg"
+    },
+
+    {
+        nome: "Vinicius 'Vinicine Bananine'",
+        nasc: "27/04/2009",
+        sonho: "Ir pro japão",
+        musica: "Black - Pearl Jam",
+        filme: "Fullmetal Alchemist Brotherhood",
+        insta: "@zyn0_vini",
+        foto: "ImgsTerceirinho/ViniciusTerceirinhoImg.jpg"
     }
 ];
 
