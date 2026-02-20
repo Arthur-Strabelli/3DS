@@ -366,6 +366,57 @@ const alunos = [
         insta: "@arthur_strabelli",
         foto: "ImgsTerceirinho/ArthurTerceirinhoImg.jpeg"
     },
+
+    {
+        nome: "Pietro 'Peletoyt' Garcia",
+        nasc: "18/08/2008",
+        sonho: "Ser Militar",
+        musica: "Rises of the moon - liana flores",
+        filme: "Chainsaw man",
+        insta: "@peletoyt",
+        foto: "ImgsTerceirinho/PietroTerceirinhoImg.jpeg"
+    },
+
+    {
+        nome: "Murilo Reis",
+        nasc: "14/02/2009",
+        sonho: "Ser Astronauta",
+        musica: "Tek it - Cafuné",
+        filme: "Neon Genesis Evangelion",
+        insta: "@murilo_reisk",
+        foto: "ImgsTerceirinho/MuriloReisTerceirinhoImg.jpeg"
+    },
+
+    // {
+    //     nome: "Luis Guilherme",
+    //     nasc: "18/12/2008",
+    //     sonho: "Ser Advogado",
+    //     musica: "Ain't no sunshine - Bill Withers",
+    //     filme: "O poderoso chefão",
+    //     insta: "@luis_guilherme_",
+    //     foto: "ImgsTerceirinho/LuisGuilhermeTerceirinhoImg.jpeg"
+    // },
+
+        {
+        nome: "Isabela",
+        nasc: "11/06/2008",
+        sonho: "Ser Rica",
+        musica: "Mary On Cross - Ghost",
+        filme: "Blue Period",
+        insta: "@__isa._.bela__",
+        foto: "ImgsTerceirinho/IsaTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Luis Felipe",
+        nasc: "11/06/2008",
+        sonho: "Ser Policial",
+        musica: "Rats - Ghost",
+        filme: "Hajime no Ippo",
+        insta: "@luisfelipe.mm._",
+        foto: "ImgsTerceirinho/LuisFelipeTerceirinhoImg.jpg"
+    },
+
     {
         nome: "Eduardo Soares",
         nasc: "18/05/2009",
@@ -375,23 +426,36 @@ const alunos = [
         insta: "@eudu_soares",
         foto: "ImgsTerceirinho/EduardoTerceirinhoImg.jpeg"
     },
+
+    
     {
-        nome: "Pietro Garcia",
-        nasc: "18/08/2008",
-        sonho: "Ser Militar",
-        musica: "Rises of the moon - liana flores",
-        filme: "Chainsaw man",
-        insta: "@peletoyt",
-        foto: "ImgsTerceirinho/PietroTerceirinhoImg.jpeg"
+        nome: "Gustavo Augusto",
+        nasc: "14/12/2008",
+        sonho: "Ser cientista",
+        musica: "Sucker for pain - neverbadagain",
+        filme: "Tropa de elite",
+        insta: "@gustavo_augusto014",
+        foto: "ImgsTerceirinho/GustavoAugustoTerceirinhoImg.jpg"
     },
+
     {
-        nome: "Murilo Reis",
-        nasc: "14/02/2009",
-        sonho: "Ser Astronauta",
-        musica: "Tek it - Cafuné",
-        filme: "Neon Genesis Evangelion",
-        insta: "@murilo_reisk",
-        foto: "ImgsTerceirinho/MuriloReisTerceirinhoImg.jpeg"
+        nome: "Ana Maria",
+        nasc: "22/08/2008",
+        sonho: "Ser Veterinária",
+        musica: "Dandelions - Ruth B",
+        filme: "The Mentalist",
+        insta: "@anamazzooliveira",
+        foto: "ImgsTerceirinho/AnaMariaTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Célio 'Dz'",
+        nasc: "23/04/2008",
+        sonho: "Ser Vaqueiro",
+        musica: "Manchild - Sabrina Carpernter",
+        filme: "Hells paradise",
+        insta: "@__dzz9",
+        foto: "ImgsTerceirinho/CelioTerceirinhoImg.jpg"
     }
 ];
 
