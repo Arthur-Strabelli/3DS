@@ -387,15 +387,15 @@ const alunos = [
         foto: "ImgsTerceirinho/MuriloReisTerceirinhoImg.jpeg"
     },
 
-    // {
-    //     nome: "Luis Guilherme",
-    //     nasc: "18/12/2008",
-    //     sonho: "Ser Advogado",
-    //     musica: "Ain't no sunshine - Bill Withers",
-    //     filme: "O poderoso chefão",
-    //     insta: "@luis_guilherme_",
-    //     foto: "ImgsTerceirinho/LuisGuilhermeTerceirinhoImg.jpeg"
-    // },
+    {
+        nome: "Luis Guilherme",
+        nasc: "22/12/2008",
+        sonho: "Ter um Foguete",
+        musica: "My hero - Foo Fighters",
+        filme: "Scott Pilgrim Contra o Mundo",
+        insta: "@luisg_violin",
+        foto: "ImgsTerceirinho/LuisGuilhermeTerceirinhoImg.jpg"
+    },
 
         {
         nome: "Isabela",
@@ -476,7 +476,38 @@ const alunos = [
         filme: "Fullmetal Alchemist Brotherhood",
         insta: "@zyn0_vini",
         foto: "ImgsTerceirinho/ViniciusTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Victor 'vitão'",
+        nasc: "03/02/2009",
+        sonho: "Ser Bombeiro",
+        musica: "Karma police - Radiohead",
+        filme: "Tokyo goul",
+        insta: "@reissx_fzx",
+        foto: "ImgsTerceirinho/VictorTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Valentin",
+        nasc: "29/04/2009",
+        sonho: "Ser Youtuber",
+        musica: "Skyfall - Adele",
+        filme: "One punch man",
+        insta: "@karote_ofc",
+        foto: "ImgsTerceirinho/ValentinTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Luis Fernando 'Mil grau'",
+        nasc: "14/02/2009",
+        sonho: "Ser Policial",
+        musica: "Maquina do tempo - Matue",
+        filme: "A origem",
+        insta: "@luis.frb__",
+        foto: "ImgsTerceirinho/MilGrauTerceirinhoImg.jpg"
     }
+
 ];
 
 function carregarAlbum() {
