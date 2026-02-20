@@ -70,11 +70,12 @@ function iniciarJogo() {
         { nome: "Gustavo Augusto", tipo: "Discente", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
         { nome: "Ana Maria", tipo: "Discente", genero: "Feminino", altura: 1.50, idade: 17, imagem: "Imgs/AnaMariaImg.jpeg" },
         { nome: "Isabela", tipo: "Discente", genero: "Feminino", altura: 1.64, idade: 17, imagem: "Imgs/IsabelaImg.jpeg" },
-        { nome: "Dz", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
+        { nome: "Célio(Dz)", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
         { nome: "Nicole Rúbia", tipo: "Discente", genero: "Feminino", altura: 1.58, idade: 16, imagem: "Imgs/NicoleRubiaImg.jpeg" },
         { nome: "Vinícius Dos Reis", tipo: "Discente", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/ViniciusDosReisImg.jpeg" },
         { nome: "Victor Reis", tipo: "Discente", genero: "Masculino", altura: 1.62, idade: 17, imagem: "Imgs/VictorReisImg.jpeg" },
         { nome: "Valentin", tipo: "Discente", genero: "Masculino", altura: 1.96, idade: 16, imagem: "Imgs/ValentinImg.jpeg" },
+        { nome: "Luis Fernando(Mil Grau)", tipo: "Discente", genero: "Masculino", altura: 1.83, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
 
 
 
