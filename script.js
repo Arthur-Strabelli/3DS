@@ -66,7 +66,18 @@ function iniciarJogo() {
         { nome: "Eduardo Soares", tipo: "Discente", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
         { nome: "Pietro Garcia", tipo: "Discente", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
         { nome: "Luis Guilherme", tipo: "Discente", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
-        { nome: "Murilo Reis", tipo: "Discente", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" }
+        { nome: "Murilo Reis", tipo: "Discente", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" },
+        { nome: "Gustavo Augusto", tipo: "Discente", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
+        { nome: "Ana Maria", tipo: "Discente", genero: "Feminino", altura: 1.50, idade: 17, imagem: "Imgs/AnaMariaImg.jpeg" },
+        { nome: "Isabela", tipo: "Discente", genero: "Feminino", altura: 1.64, idade: 17, imagem: "Imgs/IsabelaImg.jpeg" },
+        { nome: "Dz", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
+        { nome: "Nicole Rúbia", tipo: "Discente", genero: "Feminino", altura: 1.58, idade: 16, imagem: "Imgs/NicoleRubiaImg.jpeg" },
+        { nome: "Vinícius Dos Reis", tipo: "Discente", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/ViniciusDosReisImg.jpeg" },
+        { nome: "Victor Reis", tipo: "Discente", genero: "Masculino", altura: 1.62, idade: 17, imagem: "Imgs/VictorReisImg.jpeg" },
+        { nome: "Valentin", tipo: "Discente", genero: "Masculino", altura: 1.96, idade: 16, imagem: "Imgs/ValentinImg.jpeg" },
+
+
+
     ];
 
     function gerarIndiceDiario() {
