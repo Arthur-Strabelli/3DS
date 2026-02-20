@@ -378,6 +378,57 @@ const alunos = [
         insta: "@arthur_strabelli",
         foto: "ImgsTerceirinho/ArthurTerceirinhoImg.jpeg"
     },
+
+    {
+        nome: "Pietro 'Peletoyt' Garcia",
+        nasc: "18/08/2008",
+        sonho: "Ser Militar",
+        musica: "Rises of the moon - liana flores",
+        filme: "Chainsaw man",
+        insta: "@peletoyt",
+        foto: "ImgsTerceirinho/PietroTerceirinhoImg.jpeg"
+    },
+
+    {
+        nome: "Murilo Reis",
+        nasc: "14/02/2009",
+        sonho: "Ser Astronauta",
+        musica: "Tek it - Cafuné",
+        filme: "Neon Genesis Evangelion",
+        insta: "@murilo_reisk",
+        foto: "ImgsTerceirinho/MuriloReisTerceirinhoImg.jpeg"
+    },
+
+    {
+        nome: "Luis Guilherme",
+        nasc: "22/12/2008",
+        sonho: "Ter um Foguete",
+        musica: "My hero - Foo Fighters",
+        filme: "Scott Pilgrim Contra o Mundo",
+        insta: "@luisg_violin",
+        foto: "ImgsTerceirinho/LuisGuilhermeTerceirinhoImg.jpg"
+    },
+
+        {
+        nome: "Isabela",
+        nasc: "11/06/2008",
+        sonho: "Ser Rica",
+        musica: "Mary On Cross - Ghost",
+        filme: "Blue Period",
+        insta: "@__isa._.bela__",
+        foto: "ImgsTerceirinho/IsaTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Luis Felipe",
+        nasc: "11/06/2008",
+        sonho: "Ser Policial",
+        musica: "Rats - Ghost",
+        filme: "Hajime no Ippo",
+        insta: "@luisfelipe.mm._",
+        foto: "ImgsTerceirinho/LuisFelipeTerceirinhoImg.jpg"
+    },
+
     {
         nome: "Eduardo Soares",
         nasc: "18/05/2009",
@@ -387,24 +438,88 @@ const alunos = [
         insta: "@eudu_soares",
         foto: "ImgsTerceirinho/EduardoTerceirinhoImg.jpeg"
     },
+
+    
     {
-        nome: "Pietro Garcia",
-        nasc: "18/08/2008",
-        sonho: "Ser Militar",
-        musica: "Rises of the moon - liana flores",
-        filme: "Chainsaw man",
-        insta: "@peletoyt",
-        foto: "ImgsTerceirinho/PietroTerceirinhoImg.jpeg"
+        nome: "Gustavo Augusto",
+        nasc: "14/12/2008",
+        sonho: "Ser cientista",
+        musica: "Sucker for pain - neverbadagain",
+        filme: "Tropa de elite",
+        insta: "@gustavo_augusto014",
+        foto: "ImgsTerceirinho/GustavoAugustoTerceirinhoImg.jpg"
     },
+
     {
-        nome: "Murilo Reis",
+        nome: "Ana Maria",
+        nasc: "22/08/2008",
+        sonho: "Ser Veterinária",
+        musica: "Dandelions - Ruth B",
+        filme: "The Mentalist",
+        insta: "@anamazzooliveira",
+        foto: "ImgsTerceirinho/AnaMariaTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Célio 'Dz'",
+        nasc: "23/04/2008",
+        sonho: "Ser Vaqueiro",
+        musica: "Manchild - Sabrina Carpernter",
+        filme: "Hells paradise",
+        insta: "@__dzz9",
+        foto: "ImgsTerceirinho/CelioTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Nicole Rúbia",
+        nasc: "31/03/2009",
+        sonho: "ter um salsicha mofado (Dachshund)",
+        musica: "Still Loving You - Scorpions",
+        filme: "Supernatural",
+        insta: "@nicoleerubia",
+        foto: "ImgsTerceirinho/NicoleTerceirinhoImg.jpeg"
+    },
+
+    {
+        nome: "Vinicius 'Vinicine Bananine'",
+        nasc: "27/04/2009",
+        sonho: "Ir pro japão",
+        musica: "Black - Pearl Jam",
+        filme: "Fullmetal Alchemist Brotherhood",
+        insta: "@zyn0_vini",
+        foto: "ImgsTerceirinho/ViniciusTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Victor 'vitão'",
+        nasc: "03/02/2009",
+        sonho: "Ser Bombeiro",
+        musica: "Karma police - Radiohead",
+        filme: "Tokyo goul",
+        insta: "@reissx_fzx",
+        foto: "ImgsTerceirinho/VictorTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Valentin",
+        nasc: "29/04/2009",
+        sonho: "Ser Youtuber",
+        musica: "Skyfall - Adele",
+        filme: "One punch man",
+        insta: "@karote_ofc",
+        foto: "ImgsTerceirinho/ValentinTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Luis Fernando 'Mil grau'",
         nasc: "14/02/2009",
-        sonho: "Ser Astronauta",
-        musica: "Tek it - Cafuné",
-        filme: "Neon Genesis Evangelion",
-        insta: "@murilo_reisk",
-        foto: "ImgsTerceirinho/MuriloReisTerceirinhoImg.jpeg"
+        sonho: "Ser Policial",
+        musica: "Maquina do tempo - Matue",
+        filme: "A origem",
+        insta: "@luis.frb__",
+        foto: "ImgsTerceirinho/MilGrauTerceirinhoImg.jpg"
     }
+
 ];
 
 function carregarAlbum() {
