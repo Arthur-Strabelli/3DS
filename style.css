@@ -680,6 +680,10 @@ h1 { text-align: center; color: #0a0a0a; text-transform: uppercase; margin-botto
         right: 20px;
     }
 
+    .card{
+        width: 450px;
+    }
+
     
 
     header {
@@ -821,6 +825,10 @@ h1 { text-align: center; color: #0a0a0a; text-transform: uppercase; margin-botto
         top: 100px;
         right: 20px;
     }
+
+    .card{
+        width: 450px;
+    }
 }
 
 
@@ -896,5 +904,9 @@ h1 { text-align: center; color: #0a0a0a; text-transform: uppercase; margin-botto
         margin: 20px 0;
         top: 100px;
         right: 20px;
+    }
+
+    .card{
+        width: 450px;
     }
 }

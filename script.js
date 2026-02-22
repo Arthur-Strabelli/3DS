@@ -297,6 +297,7 @@ function iniciarAulas() {
         { turma: "Ambas", dia: "quinta", hora: "10:50", materia: "Língua Inglesa", professor: "Maria Aparecida" },
 
         { turma: "Ambas", dia: "quinta", hora: "11:40", materia: "Almoço", professor: "N/A" },
+        
         { turma: "Ambas", dia: "quinta", hora: "12:40", materia: "Matemática", professor: "Roberta Bernadis" },
 
         { turma: "A", dia: "quinta", hora: "13:30", materia: "Programação de Aplicativos Mobile", professor: "Luis Fernando" },
