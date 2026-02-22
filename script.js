@@ -401,6 +401,16 @@ const alunos = [
     },
 
     {
+        nome: "Murillo 'Conguitos' Belcieli",
+        nasc: "14/06/2009",
+        sonho: "Ser Lutador de UFC",
+        musica: "Dias de luta, dias de glória - Charlie Brown Jr",
+        filme: "Os vingadores",
+        insta: "@Murillo_Belcieli",
+        foto: "ImgsTerceirinho/MurilloTerceirinhoImg.jpg"
+    },
+
+    {
         nome: "Luis Guilherme",
         nasc: "22/12/2008",
         sonho: "Ter um Foguete",
@@ -465,7 +475,7 @@ const alunos = [
         nome: "Célio 'Dz'",
         nasc: "23/04/2008",
         sonho: "Ser Vaqueiro",
-        musica: "Manchild - Sabrina Carpernter",
+        musica: "Yes Indeed - Lil Baby & Drake",
         filme: "Hells paradise",
         insta: "@__dzz9",
         foto: "ImgsTerceirinho/CelioTerceirinhoImg.jpg"
@@ -482,7 +492,7 @@ const alunos = [
     },
 
     {
-        nome: "Vinicius 'Vinicine Bananine'",
+        nome: "Vinicius",
         nasc: "27/04/2009",
         sonho: "Ir pro japão",
         musica: "Black - Pearl Jam",
@@ -513,12 +523,32 @@ const alunos = [
 
     {
         nome: "Luis Fernando 'Mil grau'",
-        nasc: "14/02/2009",
+        nasc: "08/06/2009",
         sonho: "Ser Policial",
         musica: "Maquina do tempo - Matue",
         filme: "A origem",
         insta: "@luis.frb__",
         foto: "ImgsTerceirinho/MilGrauTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Pedro",
+        nasc: "09/03/2009",
+        sonho: "Ser Paleontólogo",
+        musica: "Merry Christimas, Please don't call - Bleachers",
+        filme: "Vinland Saga",
+        insta: "@pedrouhp",
+        foto: "ImgsTerceirinho/PedroTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Lara",
+        nasc: "23/02/2009",
+        sonho: "Ser Jogadora de futebol profissional",
+        musica: "Quando Bate Aquela Saudade - Rubel",
+        filme: "Rua do Medo 1666",
+        insta: "@hoscherl_",
+        foto: "ImgsTerceirinho/LaraTerceirinhoImg.jpg"
     }
 
 ];
