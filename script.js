@@ -626,7 +626,17 @@ const alunos = [
         filme: "O verão que mudou minha vida",
         insta: "@mariaquerino_",
         foto: "ImgsTerceirinho/MariaRitaTerceirinhoImg.jpg"
-    }
+    },
+
+    {
+        nome: "Adrian",
+        nasc: "09/03/2009",
+        sonho: "Ser Astronauta",
+        musica:"Caminhos - BK",
+        filme: "Harry Potter",
+        insta: "@wtf_adrixn",
+        foto: "ImgsTerceirinho/AdrianTerceirinhoImg.jpg"
+    },
 
 ];
 
