@@ -82,7 +82,7 @@ function iniciarJogo() {
         { nome: "Murillo Berchelli", tipo: "Aluno", genero: "Masculino", altura: 1.69, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
         { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
         { nome: "Borges", tipo: "Aluno", genero: "Masculino", altura: 1.67, idade: 17, imagem: "Imgs/BorgesImg.jpeg" },
-
+        { nome: "Raphaela", tipo: "Aluno", genero: "Feminino", altura: 1.56, idade: 17, imagem: "Imgs/RaphaelaImg.jpeg" },
 
 
     ];
