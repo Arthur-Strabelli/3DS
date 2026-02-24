@@ -58,6 +58,7 @@ function iniciarJogo() {
     const input = document.getElementById("input");
     const sugestoesDiv = document.getElementById("sugestoes");
     const resultado = document.getElementById("resultado");
+    const mensagem = document.getElementById("mensagem");
 
     if (!input || !sugestoesDiv || !resultado) return;
 
@@ -80,9 +81,13 @@ function iniciarJogo() {
         { nome: "Charles", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/CharlesImg.jpeg" },
         { nome: "Murillo Berchelli", tipo: "Aluno", genero: "Masculino", altura: 1.69, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
         { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
+        { nome: "Borges", tipo: "Aluno", genero: "Masculino", altura: 1.67, idade: 17, imagem: "Imgs/BorgesImg.jpeg" },
+
 
 
     ];
+
+    
 
     function gerarIndiceDiario() {
         const hoje = new Date();
@@ -92,6 +97,7 @@ function iniciarJogo() {
     }
 
     const secreto = pessoas[gerarIndiceDiario()];
+    const palpitesFeitos = new Set();
 
     input.addEventListener("input", () => {
 
@@ -112,6 +118,7 @@ function iniciarJogo() {
             div.onclick = () => {
                 input.value = p.nome;
                 sugestoesDiv.innerHTML = "";
+                verificar();
             };
 
             sugestoesDiv.appendChild(div);
@@ -130,11 +137,20 @@ function iniciarJogo() {
             return;
         }
 
+        if (palpitesFeitos.has(pessoa.nome)) {
+        mensagem.innerHTML = "⚠️ Você já tentou essa pessoa!";
+        return;
+        }
+        palpitesFeitos.add(pessoa.nome);
+
         mostrarResultado(pessoa);
 
         if (pessoa.nome === secreto.nome) {
             soltarConfete();
-            setTimeout(() => alert("Você acertou!"), 300);
+            mensagem.innerHTML = "🎉 Você acertou!";
+        } 
+        else {
+            mensagem.innerHTML = "❌ Não é essa pessoa!";
         }
 
         input.value = "";

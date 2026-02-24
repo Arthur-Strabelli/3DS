@@ -332,6 +332,13 @@ img {
     top: 0;
 }
 
+#mensagem {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #00ff88;
+    min-height: 24px;
+}
+
 /*Area das Aulas*/
 
 
