@@ -62,21 +62,24 @@ function iniciarJogo() {
     if (!input || !sugestoesDiv || !resultado) return;
 
     const pessoas = [
-        { nome: "Arthur Srabelli", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
-        { nome: "Eduardo Soares", tipo: "Discente", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
-        { nome: "Pietro Garcia", tipo: "Discente", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
-        { nome: "Luis Guilherme", tipo: "Discente", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
-        { nome: "Murilo Reis", tipo: "Discente", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" },
-        { nome: "Gustavo Augusto", tipo: "Discente", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
-        { nome: "Ana Maria", tipo: "Discente", genero: "Feminino", altura: 1.50, idade: 17, imagem: "Imgs/AnaMariaImg.jpeg" },
-        { nome: "Isabela", tipo: "Discente", genero: "Feminino", altura: 1.64, idade: 17, imagem: "Imgs/IsabelaImg.jpeg" },
-        { nome: "Célio(Dz)", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
-        { nome: "Nicole Rúbia", tipo: "Discente", genero: "Feminino", altura: 1.58, idade: 16, imagem: "Imgs/NicoleRubiaImg.jpeg" },
-        { nome: "Vinícius Dos Reis", tipo: "Discente", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/ViniciusDosReisImg.jpeg" },
-        { nome: "Victor Reis", tipo: "Discente", genero: "Masculino", altura: 1.62, idade: 17, imagem: "Imgs/VictorReisImg.jpeg" },
-        { nome: "Valentin", tipo: "Discente", genero: "Masculino", altura: 1.96, idade: 16, imagem: "Imgs/ValentinImg.jpeg" },
-        { nome: "Luis Fernando(Mil Grau)", tipo: "Discente", genero: "Masculino", altura: 1.83, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
-
+        { nome: "Arthur Srabelli", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
+        { nome: "Eduardo Soares", tipo: "Aluno", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
+        { nome: "Pietro Garcia", tipo: "Aluno", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
+        { nome: "Luis Guilherme", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
+        { nome: "Murilo Reis", tipo: "Aluno", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" },
+        { nome: "Gustavo Augusto", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
+        { nome: "Ana Maria", tipo: "Aluno", genero: "Feminino", altura: 1.50, idade: 17, imagem: "Imgs/AnaMariaImg.jpeg" },
+        { nome: "Isabela", tipo: "Aluno", genero: "Feminino", altura: 1.64, idade: 17, imagem: "Imgs/IsabelaImg.jpeg" },
+        { nome: "Célio(Dz)", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
+        { nome: "Nicole Rúbia", tipo: "Aluno", genero: "Feminino", altura: 1.58, idade: 16, imagem: "Imgs/NicoleRubiaImg.jpeg" },
+        { nome: "Vinícius Dos Reis", tipo: "Aluno", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/ViniciusDosReisImg.jpeg" },
+        { nome: "Victor Reis", tipo: "Aluno", genero: "Masculino", altura: 1.62, idade: 17, imagem: "Imgs/VictorReisImg.jpeg" },
+        { nome: "Valentin", tipo: "Aluno", genero: "Masculino", altura: 1.96, idade: 16, imagem: "Imgs/ValentinImg.jpeg" },
+        { nome: "Luis Fernando(Mil Grau)", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
+        { nome: "Luis Fernando(LF)", tipo: "Professor", genero: "Masculino", altura: 1.78, idade: 57, imagem: "Imgs/ProfLFImg.png" },
+        { nome: "Charles", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/CharlesImg.jpeg" },
+        { nome: "Murillo Berchelli", tipo: "Aluno", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
+        { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
 
 
     ];
