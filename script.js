@@ -78,7 +78,7 @@ function iniciarJogo() {
         { nome: "Luis Fernando(Mil Grau)", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
         { nome: "Luis Fernando(LF)", tipo: "Professor", genero: "Masculino", altura: 1.78, idade: 57, imagem: "Imgs/ProfLFImg.png" },
         { nome: "Charles", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/CharlesImg.jpeg" },
-        { nome: "Murillo Berchelli", tipo: "Aluno", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
+        { nome: "Murillo Berchelli", tipo: "Aluno", genero: "Masculino", altura: 1.69, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
         { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
 
 
