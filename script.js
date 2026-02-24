@@ -606,6 +606,26 @@ const alunos = [
         filme: "Cinco passos de você",
         insta: "@Raphinha_rasga",
         foto: "ImgsTerceirinho/RaphaelaTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Paola",
+        nasc: "23/03/2008",
+        sonho: "Fazer Professora",
+        musica: "me encontra - charlie brown jr",
+        filme: "supernatural",
+        insta: "@___reiss0",
+        foto: "ImgsTerceirinho/PaolaTerceirinhoImg.jpg" 
+    },
+
+    {
+        nome: "Maria Rita",
+        nasc: "02/08/2008",
+        sonho: "Ser Dançarina",
+        musica:"Verdades do tempo - Thiago brado",
+        filme: "O verão que mudou minha vida",
+        insta: "@mariaquerino_",
+        foto: "ImgsTerceirinho/MariaRitaTerceirinhoImg.jpg"
     }
 
 ];
