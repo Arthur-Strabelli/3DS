@@ -63,6 +63,7 @@ function iniciarJogo() {
     if (!input || !sugestoesDiv || !resultado) return;
 
     const pessoas = [
+
         { nome: "Arthur Srabelli", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
         { nome: "Eduardo Soares", tipo: "Aluno", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
         { nome: "Pietro Garcia", tipo: "Aluno", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
@@ -83,6 +84,23 @@ function iniciarJogo() {
         { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
         { nome: "Borges", tipo: "Aluno", genero: "Masculino", altura: 1.67, idade: 17, imagem: "Imgs/BorgesImg.jpeg" },
         { nome: "Raphaela", tipo: "Aluno", genero: "Feminino", altura: 1.56, idade: 17, imagem: "Imgs/RaphaelaImg.jpeg" },
+
+        { nome: "Arthur Strabelli", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
+        { nome: "Eduardo Soares", tipo: "Discente", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
+        { nome: "Pietro Garcia", tipo: "Discente", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
+        { nome: "Luis Guilherme", tipo: "Discente", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
+        { nome: "Murilo Reis", tipo: "Discente", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" },
+        { nome: "Gustavo Augusto", tipo: "Discente", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
+        { nome: "Ana Maria", tipo: "Discente", genero: "Feminino", altura: 1.50, idade: 17, imagem: "Imgs/AnaMariaImg.jpeg" },
+        { nome: "Isabela", tipo: "Discente", genero: "Feminino", altura: 1.64, idade: 17, imagem: "Imgs/IsabelaImg.jpeg" },
+        { nome: "Célio(Dz)", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
+        { nome: "Nicole Rúbia", tipo: "Discente", genero: "Feminino", altura: 1.58, idade: 16, imagem: "Imgs/NicoleRubiaImg.jpeg" },
+        { nome: "Vinícius Dos Reis", tipo: "Discente", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/ViniciusDosReisImg.jpeg" },
+        { nome: "Victor Reis", tipo: "Discente", genero: "Masculino", altura: 1.62, idade: 17, imagem: "Imgs/VictorReisImg.jpeg" },
+        { nome: "Valentin", tipo: "Discente", genero: "Masculino", altura: 1.96, idade: 16, imagem: "Imgs/ValentinImg.jpeg" },
+        { nome: "Luis Fernando(Mil Grau)", tipo: "Discente", genero: "Masculino", altura: 1.83, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
+
+         
 
 
     ];
@@ -420,6 +438,16 @@ const alunos = [
     },
 
     {
+        nome: "Murillo 'Conguitos' Belcieli",
+        nasc: "14/06/2009",
+        sonho: "Ser Lutador de UFC",
+        musica: "Dias de luta, dias de glória - Charlie Brown Jr",
+        filme: "Os vingadores",
+        insta: "@Murillo_Belcieli",
+        foto: "ImgsTerceirinho/MurilloTerceirinhoImg.jpg"
+    },
+
+    {
         nome: "Luis Guilherme",
         nasc: "22/12/2008",
         sonho: "Ter um Foguete",
@@ -484,10 +512,20 @@ const alunos = [
         nome: "Célio 'Dz'",
         nasc: "23/04/2008",
         sonho: "Ser Vaqueiro",
-        musica: "Manchild - Sabrina Carpernter",
+        musica: "Yes Indeed - Lil Baby & Drake",
         filme: "Hells paradise",
-        insta: "@__dzz9",
+        insta: "@___dzz9",
         foto: "ImgsTerceirinho/CelioTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Charles",
+        nasc: "17/04/2008",
+        sonho: "Ser Dj",
+        musica: "te amo minha mãe - teto",
+        filme: "Baby Driver",
+        insta: "@chlsz_y2k",
+        foto: "ImgsTerceirinho/CharlesTerceirinhoImg.jpg"
     },
 
     {
@@ -501,7 +539,7 @@ const alunos = [
     },
 
     {
-        nome: "Vinicius 'Vinicine Bananine'",
+        nome: "Vinicius",
         nasc: "27/04/2009",
         sonho: "Ir pro japão",
         musica: "Black - Pearl Jam",
@@ -515,7 +553,7 @@ const alunos = [
         nasc: "03/02/2009",
         sonho: "Ser Bombeiro",
         musica: "Karma police - Radiohead",
-        filme: "Tokyo goul",
+        filme: "Tokyo ghoul",
         insta: "@reissx_fzx",
         foto: "ImgsTerceirinho/VictorTerceirinhoImg.jpg"
     },
@@ -532,12 +570,42 @@ const alunos = [
 
     {
         nome: "Luis Fernando 'Mil grau'",
-        nasc: "14/02/2009",
+        nasc: "08/06/2009",
         sonho: "Ser Policial",
         musica: "Maquina do tempo - Matue",
         filme: "A origem",
         insta: "@luis.frb__",
         foto: "ImgsTerceirinho/MilGrauTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Pedro",
+        nasc: "09/03/2009",
+        sonho: "Ser Paleontólogo",
+        musica: "Merry Christimas, Please don't call - Bleachers",
+        filme: "Vinland Saga",
+        insta: "@pedrouhp",
+        foto: "ImgsTerceirinho/PedroTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Lara",
+        nasc: "23/02/2009",
+        sonho: "Ser Jogadora de futebol profissional",
+        musica: "Quando Bate Aquela Saudade - Rubel",
+        filme: "Rua do Medo 1666",
+        insta: "@hoscherl_",
+        foto: "ImgsTerceirinho/LaraTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Raphaela",
+        nasc: "25/08/2008",
+        sonho: "Fazer patinação artística",
+        musica: "Sobrenome - Vitinho e Péricles",
+        filme: "Cinco passos de você",
+        insta: "@Raphinha_rasga",
+        foto: "ImgsTerceirinho/RaphaelaTerceirinhoImg.jpg"
     }
 
 ];
