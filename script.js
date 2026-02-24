@@ -62,7 +62,7 @@ function iniciarJogo() {
     if (!input || !sugestoesDiv || !resultado) return;
 
     const pessoas = [
-        { nome: "Arthur Srabelli", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
+        { nome: "Arthur Strabelli", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
         { nome: "Eduardo Soares", tipo: "Discente", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
         { nome: "Pietro Garcia", tipo: "Discente", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
         { nome: "Luis Guilherme", tipo: "Discente", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
@@ -477,8 +477,18 @@ const alunos = [
         sonho: "Ser Vaqueiro",
         musica: "Yes Indeed - Lil Baby & Drake",
         filme: "Hells paradise",
-        insta: "@__dzz9",
+        insta: "@___dzz9",
         foto: "ImgsTerceirinho/CelioTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Charles",
+        nasc: "17/04/2008",
+        sonho: "Ser Dj",
+        musica: "te amo minha mãe - teto",
+        filme: "Baby Driver",
+        insta: "@chlsz_y2k",
+        foto: "ImgsTerceirinho/CharlesTerceirinhoImg.jpg"
     },
 
     {
@@ -506,7 +516,7 @@ const alunos = [
         nasc: "03/02/2009",
         sonho: "Ser Bombeiro",
         musica: "Karma police - Radiohead",
-        filme: "Tokyo goul",
+        filme: "Tokyo ghoul",
         insta: "@reissx_fzx",
         foto: "ImgsTerceirinho/VictorTerceirinhoImg.jpg"
     },
@@ -549,6 +559,16 @@ const alunos = [
         filme: "Rua do Medo 1666",
         insta: "@hoscherl_",
         foto: "ImgsTerceirinho/LaraTerceirinhoImg.jpg"
+    },
+
+    {
+        nome: "Raphaela",
+        nasc: "25/08/2008",
+        sonho: "Fazer patinação artística",
+        musica: "Sobrenome - Vitinho e Péricles",
+        filme: "Cinco passos de você",
+        insta: "@Raphinha_rasga",
+        foto: "ImgsTerceirinho/RaphaelaTerceirinhoImg.jpg"
     }
 
 ];
