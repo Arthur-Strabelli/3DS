@@ -84,21 +84,10 @@ function iniciarJogo() {
         { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
         { nome: "Borges", tipo: "Aluno", genero: "Masculino", altura: 1.67, idade: 17, imagem: "Imgs/BorgesImg.jpeg" },
         { nome: "Raphaela", tipo: "Aluno", genero: "Feminino", altura: 1.56, idade: 17, imagem: "Imgs/RaphaelaImg.jpeg" },
-
-        { nome: "Arthur Strabelli", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
-        { nome: "Eduardo Soares", tipo: "Discente", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
-        { nome: "Pietro Garcia", tipo: "Discente", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
-        { nome: "Luis Guilherme", tipo: "Discente", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
-        { nome: "Murilo Reis", tipo: "Discente", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" },
-        { nome: "Gustavo Augusto", tipo: "Discente", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
-        { nome: "Ana Maria", tipo: "Discente", genero: "Feminino", altura: 1.50, idade: 17, imagem: "Imgs/AnaMariaImg.jpeg" },
-        { nome: "Isabela", tipo: "Discente", genero: "Feminino", altura: 1.64, idade: 17, imagem: "Imgs/IsabelaImg.jpeg" },
-        { nome: "Célio(Dz)", tipo: "Discente", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/DzImg.jpeg" },
-        { nome: "Nicole Rúbia", tipo: "Discente", genero: "Feminino", altura: 1.58, idade: 16, imagem: "Imgs/NicoleRubiaImg.jpeg" },
-        { nome: "Vinícius Dos Reis", tipo: "Discente", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/ViniciusDosReisImg.jpeg" },
-        { nome: "Victor Reis", tipo: "Discente", genero: "Masculino", altura: 1.62, idade: 17, imagem: "Imgs/VictorReisImg.jpeg" },
-        { nome: "Valentin", tipo: "Discente", genero: "Masculino", altura: 1.96, idade: 16, imagem: "Imgs/ValentinImg.jpeg" },
-        { nome: "Luis Fernando(Mil Grau)", tipo: "Discente", genero: "Masculino", altura: 1.83, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
+        { nome: "Yasmin", tipo: "Aluno", genero: "Feminino", altura: 1.59, idade: 17, imagem: "Imgs/YasminImg.jpeg" },
+        { nome: "Maria Rita", tipo: "Aluno", genero: "Feminino", altura: 1.55, idade: 17, imagem: "Imgs/MariaRitaImg.jpeg" },
+        { nome: "Paola", tipo: "Aluno", genero: "Feminino", altura: 1.60, idade: 17, imagem: "Imgs/PaolaImg.jpeg" },
+        { nome: "Adrian", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 16, imagem: "Imgs/AdrianImg.jpeg" },
 
          
 
