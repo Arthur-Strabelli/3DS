@@ -455,6 +455,25 @@ img {
   margin: 0;
 }
 
+.recreio {
+    background-color: #3d3f3e;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.almoco {
+    background-color: #3d3f3e;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.almoco:hover, .recreio:hover {
+    background-color: #5a5c5b;
+    color: white;
+    transform: scale(1.02);
+}
 
 /*Terceirinho*/
 
@@ -622,7 +641,15 @@ h1 { text-align: center; color: #0a0a0a; text-transform: uppercase; margin-botto
 
 
 
-
+@media (max-width: 1366px) {
+    .TerceiraoImg {
+        position: absolute; 
+        left: -200px; 
+        
+        height: auto;
+    }
+    
+}
 
 
 
