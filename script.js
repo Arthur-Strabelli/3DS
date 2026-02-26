@@ -66,7 +66,7 @@ function iniciarJogo() {
 
         { nome: "Arthur Srabelli", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 16, imagem: "Imgs/ArthurStrabelliImg.jpeg" },
         { nome: "Eduardo Soares", tipo: "Aluno", genero: "Masculino", altura: 1.77, idade: 16, imagem: "Imgs/EduardoSoaresImg.jpeg" },
-        { nome: "Pietro Garcia", tipo: "Aluno", genero: "Masculino", altura: 1.76, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
+        { nome: "Pietro Garcia", tipo: "Aluno", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/PietroGarciaImg.jpeg" },
         { nome: "Luis Guilherme", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 17, imagem: "Imgs/LuisGuilhermeImg.jpeg" },
         { nome: "Murilo Reis", tipo: "Aluno", genero: "Masculino", altura: 1.74, idade: 17, imagem: "Imgs/MuriloReisImg.jpeg" },
         { nome: "Gustavo Augusto", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/GustavoAugustoImg.jpeg" },
