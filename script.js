@@ -80,7 +80,7 @@ function iniciarJogo() {
         { nome: "Luis Fernando(Mil Grau)", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 16, imagem: "Imgs/LuisFernandoImg.jpeg" },
         { nome: "Luis Fernando(LF)", tipo: "Professor", genero: "Masculino", altura: 1.78, idade: 57, imagem: "Imgs/ProfLFImg.png" },
         { nome: "Charles", tipo: "Aluno", genero: "Masculino", altura: 1.75, idade: 17, imagem: "Imgs/CharlesImg.jpeg" },
-        { nome: "Murillo Berchelli", tipo: "Aluno", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
+        { nome: "Murillo Belcieli", tipo: "Aluno", genero: "Masculino", altura: 1.68, idade: 16, imagem: "Imgs/MurilloBerchelliImg.jpeg" },
         { nome: "Luis Felipe", tipo: "Aluno", genero: "Masculino", altura: 1.70, idade: 17, imagem: "Imgs/LuisFelipeImg.jpeg" },
         { nome: "Borges", tipo: "Aluno", genero: "Masculino", altura: 1.67, idade: 17, imagem: "Imgs/BorgesImg.jpeg" },
         { nome: "Raphaela", tipo: "Aluno", genero: "Feminino", altura: 1.56, idade: 17, imagem: "Imgs/RaphaelaImg.jpeg" },
@@ -89,6 +89,8 @@ function iniciarJogo() {
         { nome: "Paola", tipo: "Aluno", genero: "Feminino", altura: 1.60, idade: 17, imagem: "Imgs/PaolaImg.jpeg" },
         { nome: "Adrian", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 16, imagem: "Imgs/AdrianImg.jpeg" },
         { nome: "Bertoncini", tipo: "Professor", genero: "Masculino", altura: 1.76, idade:56, imagem: "Imgs/BertonciniImg.jpeg" },
+        { nome: "Lara", tipo: "Aluno", genero: "Feminino", altura: 1.55, idade: 17, imagem: "Imgs/LaraImagem.jpeg" },
+        { nome: "Pedro", tipo: "Aluno", genero: "Masculino", altura: 1.78, idade: 16, imagem: "Imgs/PedroImg.jpeg" },
 
          
 
@@ -315,44 +317,51 @@ function iniciarAulas() {
 
         //QUINTA
 
-        { turma: "A", dia: "quinta", hora: "07:10", materia: "Programação Web I, II e III", professor: "Alexandre Bueno (ABA)" },
-        { turma: "B", dia: "quinta", hora: "07:10", materia: "Física", professor: "Roberto" },
-
-        { turma: "A", dia: "quinta", hora: "08:00", materia: "Estudos Avançados em Matemática", professor: "André Luis (Poderoso)" },
+        { turma: "Ambas", dia: "quinta", hora: "07:10", materia: "Geografia", professor: "Fernando Culê" },
+       
+        { turma: "A", dia: "quinta", hora: "08:00", materia: "Qualidade e Teste de Software", professor: "Messias Goncalves" },
         { turma: "B", dia: "quinta", hora: "08:00", materia: "Química (B)", professor: "Sandra" },
 
-        { turma: "A", dia: "quinta", hora: "08:50", materia: "Internet, Protocolos e Segurança", professor: "Valnei Henrique" },
+        { turma: "A", dia: "quinta", hora: "08:50", materia: "Qualidade e Teste de Software", professor: "Messias Goncalves" },
         { turma: "B", dia: "quinta", hora: "08:50", materia: "Física (B)", professor: "Roberto" },
 
         { turma: "Ambas", dia: "quinta", hora: "09:40", materia: "Recreio", professor: "N/A" },
 
-        { turma: "Ambas", dia: "quinta", hora: "10:00", materia: "Sociologia", professor: "Daniela Aparecida" },
-        { turma: "Ambas", dia: "quinta", hora: "10:50", materia: "Língua Inglesa", professor: "Maria Aparecida" },
+        { turma: "A", dia: "quinta", hora: "10:00", materia: "CNA", professor: "Fernando Bertoncini" }, 
+        { turma: "B", dia: "quinta", hora: "10:00", materia: "Física (B)", professor: "Roberto" },
+
+        { turma: "A", dia: "quinta", hora: "10:50", materia: "CNA", professor: "Fernando Bertoncini" },
+        { turma: "B", dia: "quinta", hora: "10:50", materia: "Física (B)", professor: "Roberto" },
 
         { turma: "Ambas", dia: "quinta", hora: "11:40", materia: "Almoço", professor: "N/A" },
         
-        { turma: "Ambas", dia: "quinta", hora: "12:40", materia: "Matemática", professor: "Roberta Bernadis" },
+        { turma: "Ambas", dia: "quinta", hora: "12:40", materia: "Língua Inglesa", professor: "Maria Aparecida (Cidinha)" },
 
-        { turma: "A", dia: "quinta", hora: "13:30", materia: "Programação de Aplicativos Mobile", professor: "Luis Fernando" },
-        { turma: "B", dia: "quinta", hora: "13:30", materia: "Filosofia", professor: "Daniela Aparecida" },
+        { turma: "Ambas", dia: "quinta", hora: "13:30", materia: "Filosofia", professor: "Daniela Frighetto" },
+        
+        { turma: "A", dia: "quinta", hora: "14:20", materia: "Estudos Avançados em Matemática", professor: "André Luis (Poderoso)" },
 
         //SEXTA
 
-        { turma: "Ambas", dia: "sexta", hora: "07:10", materia: "Filosofia", professor: "Daniela Aparecida" },
-        { turma: "Ambas", dia: "sexta", hora: "08:00", materia: "Geografia", professor: "Fernando Vicente" },
-        { turma: "Ambas", dia: "sexta", hora: "08:50", materia: "Língua Espanhola", professor: "Roberta Tahan" },
+        { turma: "A", dia: "sexta", hora: "07:10", materia: "TCC", professor: "Luis Fernando (LF)" },
+        { turma: "B", dia: "sexta", hora: "07:10", materia: "Filosofia", professor: "Daniela Frighetto" },
+
+        { turma: "A", dia: "sexta", hora: "08:00", materia: "TCC", professor: "Luis Fernando (LF)" },
+        { turma: "B", dia: "sexta", hora: "08:00", materia: "Filosofia", professor: "Daniela Frighetto" },
+
+        { turma: "Ambas", dia: "sexta", hora: "08:50", materia: "Biologia", professor: "Verginia Angela" },
 
         { turma: "Ambas", dia: "sexta", hora: "09:40", materia: "Recreio", professor: "N/A" },
 
-        { turma: "A", dia: "sexta", hora: "10:00", materia: "Sistemas Embarcados", professor: "N/A" },
-        { turma: "B", dia: "sexta", hora: "10:00", materia: "Biologia (B)", professor: "Verginia Angela" },
+        { turma: "Ambas", dia: "sexta", hora: "10:00", materia: "Biologia", professor: "Verginia Angela" },
+        
 
-        { turma: "Ambas", dia: "sexta", hora: "10:50", materia: "Sociologia", professor: "Daniela Aparecida" },
+        { turma: "Ambas", dia: "sexta", hora: "10:50", materia: "Matemática", professor: "Roberta Leoni" },
 
         { turma: "Ambas", dia: "sexta", hora: "11:40", materia: "Almoço", professor: "N/A" },
 
         { turma: "Ambas", dia: "sexta", hora: "12:40", materia: "Língua Portuguesa", professor: "Silvio Gargano" },
-        { turma: "Ambas", dia: "sexta", hora: "13:30", materia: "Matemática", professor: "Roberta Bernades" } ];
+        { turma: "Ambas", dia: "sexta", hora: "13:30", materia: "Lingua Espanhola", professor: "Roberta Tahan" } ];
 
     function renderizarAulas() {
 
