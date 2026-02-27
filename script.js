@@ -240,26 +240,26 @@ function iniciarAulas() {
         //SEGUNDA 
 
         { turma: "A", dia: "segunda", hora: "07:10", materia: "Internet, Protocolos e Segurança", professor: "Valnei Henrique" },
-        { turma: "B", dia: "segunda", hora: "07:00", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "segunda", hora: "07:10", materia: "Estudos Avançado em Matemática", professor: "Renata Salgado" },
 
         { turma: "A", dia: "segunda", hora: "08:00", materia: "Internet, Protocolos e Segurança", professor: "Valnei Henrique" },
-        { turma: "B", dia: "segunda", hora: "08:00", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "segunda", hora: "08:00", materia: "CNA", professor: "Fernando Bertoncini" },
 
         { turma: "A", dia: "segunda", hora: "08:50", materia: "Estudos Avançados em Matemática", professor: "André Luis (Poderoso)" },
-        { turma: "B", dia: "segunda", hora: "08:50", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "segunda", hora: "08:50", materia: "TCC", professor: "Valnei Henrique" },
 
         { turma: "Ambas", dia: "segunda", hora: "09:40", materia: "Recreio", professor: "N/A" },
 
         { turma: "A", dia: "segunda", hora: "10:00", materia: "Programação Web I, II e III", professor: "Alexandre Bueno (ABA)" },
-        { turma: "B", dia: "segunda", hora: "10:00", materia: "Química (B)", professor: "Sandra" },
+        { turma: "B", dia: "segunda", hora: "10:00", materia: "TCC", professor: "Valnei Henrique" },
 
         { turma: "A", dia: "segunda", hora: "10:50", materia: "Programação Web I, II e III", professor: "Alexandre Bueno (ABA)" },
-        { turma: "B", dia: "segunda", hora: "10:50", materia: "Física", professor: "Roberto" },
+        { turma: "B", dia: "segunda", hora: "10:50", materia: "TCC", professor: "Valnei Henrique" },
 
         { turma: "Ambas", dia: "segunda", hora: "11:40", materia: "Almoço", professor: "N/A" },
 
         { turma: "A", dia: "segunda", hora: "12:40", materia: "TCC", professor: "Luis Fernando (LF)" },
-        { turma: "B", dia: "segunda", hora: "12:40", materia: "Física", professor: "Roberto" },
+        { turma: "B", dia: "segunda", hora: "12:40", materia: "Internet, Protocolos e Segurança", professor: "Valnei Henrique" },
 
         { turma: "Ambas", dia: "segunda", hora: "13:30", materia: "Matemática", professor: "Roberta Leoni" },
         
@@ -267,10 +267,10 @@ function iniciarAulas() {
         //TERÇA 
 
         { turma: "A", dia: "terca", hora: "07:10", materia: "Programação de Aplicativos Mobile I e II", professor: "Luis Fernando (LF)" },
-        { turma: "B", dia: "terca", hora: "07:10", materia: "Filosofia", professor: "Daniela Aparecida" },
+        { turma: "B", dia: "terca", hora: "07:10", materia: "Programação Web I, II e III", professor: "Viviana Pupin" },
 
         { turma: "A", dia: "terca", hora: "08:00", materia: "Programação de Aplicativos Mobile I e II", professor: "Luis Fernando (LF)" },
-        { turma: "B", dia: "terca", hora: "08:00", materia: "Filosofia", professor: "Daniela Aparecida" },
+        { turma: "B", dia: "terca", hora: "08:00", materia: "Programação Web I, II e III", professor: "Viviana Pupin" },
 
         { turma: "Ambas", dia: "terca", hora: "08:50", materia: "Geografia", professor: "Fernando Culê" },
 
@@ -291,18 +291,18 @@ function iniciarAulas() {
         //QUARTA
 
         { turma: "A", dia: "quarta", hora: "07:10", materia: "CNA", professor: "Fernando Bertoncini" },
-        { turma: "B", dia: "quarta", hora: "07:10", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "quarta", hora: "07:10", materia: "Sistemas Embarcados", professor: "--" },
 
         { turma: "A", dia: "quarta", hora: "08:00", materia: "Estudos Avançados em Matemática", professor: "André Luis (Poderoso)" },
-        { turma: "B", dia: "quarta", hora: "08:00", materia: "Inglês", professor: "Maria Aparecida" },
+        { turma: "B", dia: "quarta", hora: "08:00", materia: "Sistemas Embarcados", professor: "--" },
 
         { turma: "A", dia: "quarta", hora: "08:50", materia: "Sistemas Embarcados", professor: "Anderson" },
-        { turma: "B", dia: "quarta", hora: "08:50", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "quarta", hora: "08:50", materia: "Estudos Avançados em Matemática", professor: "Renata Salgado" },
 
         { turma: "Ambas", dia: "quarta", hora: "09:40", materia: "Recreio", professor: "N/A" },
 
         { turma: "A", dia: "quarta", hora: "10:00", materia: "Sistemas Embarcados", professor: "Anderson" },
-        { turma: "B", dia: "quarta", hora: "10:00", materia: "Química (B)", professor: "Sandra" },
+        { turma: "B", dia: "quarta", hora: "10:00", materia: "CNA", professor: "Fernando Bertoncini" },
 
         { turma: "Ambas", dia: "quarta", hora: "10:50", materia: "Sociologia", professor: "Daniela Frighetto" },
         
@@ -313,6 +313,8 @@ function iniciarAulas() {
         
 
         { turma: "Ambas", dia: "quarta", hora: "13:30", materia: "Sociologia", professor: "Daniela Frighetto" },
+
+        { turma: "B", dia: "quarta", hora: "14:20", materia: "Internet, Protocolos e Segurança", professor: "Valnei Henrique" },
         
 
         //QUINTA
@@ -320,18 +322,18 @@ function iniciarAulas() {
         { turma: "Ambas", dia: "quinta", hora: "07:10", materia: "Geografia", professor: "Fernando Culê" },
        
         { turma: "A", dia: "quinta", hora: "08:00", materia: "Qualidade e Teste de Software", professor: "Messias Goncalves" },
-        { turma: "B", dia: "quinta", hora: "08:00", materia: "Química (B)", professor: "Sandra" },
+        { turma: "B", dia: "quinta", hora: "08:00", materia: "Estudos Avançados em Matemática", professor: "Renata Salgado" },
 
         { turma: "A", dia: "quinta", hora: "08:50", materia: "Qualidade e Teste de Software", professor: "Messias Goncalves" },
-        { turma: "B", dia: "quinta", hora: "08:50", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "quinta", hora: "08:50", materia: "CNA", professor: "Fernando Bertoncini" },
 
         { turma: "Ambas", dia: "quinta", hora: "09:40", materia: "Recreio", professor: "N/A" },
 
         { turma: "A", dia: "quinta", hora: "10:00", materia: "CNA", professor: "Fernando Bertoncini" }, 
-        { turma: "B", dia: "quinta", hora: "10:00", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "quinta", hora: "10:00", materia: "Programação Mobile I e II", professor: "Luis Fernando (LF)" },
 
         { turma: "A", dia: "quinta", hora: "10:50", materia: "CNA", professor: "Fernando Bertoncini" },
-        { turma: "B", dia: "quinta", hora: "10:50", materia: "Física (B)", professor: "Roberto" },
+        { turma: "B", dia: "quinta", hora: "10:50", materia: "Programação Mobile I e II", professor: "Luis Fernando (LF)" },
 
         { turma: "Ambas", dia: "quinta", hora: "11:40", materia: "Almoço", professor: "N/A" },
         
@@ -344,10 +346,10 @@ function iniciarAulas() {
         //SEXTA
 
         { turma: "A", dia: "sexta", hora: "07:10", materia: "TCC", professor: "Luis Fernando (LF)" },
-        { turma: "B", dia: "sexta", hora: "07:10", materia: "Filosofia", professor: "Daniela Frighetto" },
+        { turma: "B", dia: "sexta", hora: "07:10", materia: "Qualidade e Teste de Software", professor: "--" },
 
         { turma: "A", dia: "sexta", hora: "08:00", materia: "TCC", professor: "Luis Fernando (LF)" },
-        { turma: "B", dia: "sexta", hora: "08:00", materia: "Filosofia", professor: "Daniela Frighetto" },
+        { turma: "B", dia: "sexta", hora: "08:00", materia: "Qualidade e Teste de Software", professor: "--" },
 
         { turma: "Ambas", dia: "sexta", hora: "08:50", materia: "Biologia", professor: "Verginia Angela" },
 
