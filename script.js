@@ -653,6 +653,16 @@ const alunos = [
         foto: "ImgsTerceirinho/AdrianTerceirinhoImg.jpg"
     },
 
+    {
+        nome: "Yasmin",
+        nasc: "03/07/2008",
+        sonho: "Ser a popstar do filme \"Barbie - A Princesa & a Pop Star\"",
+        musica:"Wuthering Heights - Angra ",
+        filme: "As vantagens de ser Invisível",
+        insta: "@y4skiis",
+        foto: "ImgsTerceirinho/YasminTerceirinhoImg.jpg"
+    },
+
 ];
 
 function carregarAlbum() {
